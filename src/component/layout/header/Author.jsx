@@ -1,5 +1,4 @@
 import profile from "../../../assets/images/avatar/profile-52x52.png";
-// import ProtoTypes from "prop-types";
 
 function Author({ showProfile }) {
     return (
@@ -40,9 +39,5 @@ function Author({ showProfile }) {
         </div>
     );
 }
-
-// Author.propTypes = {
-//   showProfile: ProtoTypes.func,
-// };
 
 export default Author;

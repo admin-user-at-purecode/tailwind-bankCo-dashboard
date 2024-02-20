@@ -27,10 +27,6 @@ function SidebarV2() {
                                     <li className="item px-[43px] py-[11px]">
                                         <a
                                             href="/"
-                                            //   className={`${
-                                            //       // location.includes("home")
-                                            //       true ? "nav-active" : ""
-                                            //   }`}
                                         >
                                             <span className="item-ico">
                                                 <svg
@@ -99,11 +95,6 @@ function SidebarV2() {
                                     <li className="item px-[43px] py-[11px]">
                                         <a
                                             href="#"
-                                            // className={`${
-                                            //     location === "/transaction"
-                                            //         ? "nav-active"
-                                            //         : ""
-                                            // }`}
                                         >
                                             <span className="item-ico">
                                                 <svg
@@ -182,11 +173,7 @@ function SidebarV2() {
                                     <li className="item px-[43px] py-[11px]">
                                         <a
                                             href="#"
-                                            // className={`${
-                                            //     location === "/analytics"
-                                            //         ? "nav-active"
-                                            //         : ""
-                                            // }`}
+                                           
                                         >
                                             <span className="item-ico">
                                                 <svg
@@ -218,11 +205,7 @@ function SidebarV2() {
                                     <li className="item px-[43px] py-[11px]">
                                         <a
                                             href="#"
-                                            // className={`${
-                                            //     location === "/my-wallet"
-                                            //         ? "nav-active"
-                                            //         : ""
-                                            // }`}
+                                           
                                         >
                                             <span className="item-ico">
                                                 <svg
@@ -249,11 +232,6 @@ function SidebarV2() {
                                     <li className="item px-[43px] py-[11px]">
                                         <a
                                             href="#"
-                                            // className={`${
-                                            //     location === "/messages"
-                                            //         ? "nav-active"
-                                            //         : ""
-                                            // }`}
                                         >
                                             <span className="item-ico">
                                                 <svg
@@ -289,11 +267,6 @@ function SidebarV2() {
                                     <li className="item px-[43px] py-[11px]">
                                         <a
                                             href="#"
-                                            // className={`${
-                                            //     location === "/integrations"
-                                            //         ? "nav-active"
-                                            //         : ""
-                                            // }`}
                                         >
                                             <span className="item-ico">
                                                 <svg
@@ -334,11 +307,7 @@ function SidebarV2() {
                                     <li className="item px-[43px] py-[11px]">
                                         <a
                                             href="#"
-                                            // className={`${
-                                            //     location === "/users"
-                                            //         ? "nav-active"
-                                            //         : ""
-                                            // }`}
+                                           
                                         >
                                             <span className="item-ico">
                                                 <svg
@@ -370,11 +339,7 @@ function SidebarV2() {
                                     <li className="item px-[43px] py-[11px]">
                                         <a
                                             href="#"
-                                            // className={`${
-                                            //     location === "/calender"
-                                            //         ? "nav-active"
-                                            //         : ""
-                                            // }`}
+                                           
                                         >
                                             <span className="item-ico">
                                                 <svg
@@ -428,11 +393,6 @@ function SidebarV2() {
                                     <li className="item px-[43px] py-[11px]">
                                         <a
                                             href="#"
-                                            // className={`${
-                                            //     location === "/history"
-                                            //         ? "nav-active"
-                                            //         : ""
-                                            // }`}
                                         >
                                             <span className="item-ico">
                                                 <svg
@@ -477,11 +437,6 @@ function SidebarV2() {
                                     <li className="item px-[43px] py-[11px]">
                                         <a
                                             href="#"
-                                            // className={`${
-                                            //     location === "/support-ticket"
-                                            //         ? "nav-active"
-                                            //         : ""
-                                            // }`}
                                         >
                                             <span className="item-ico">
                                                 <svg
@@ -527,10 +482,6 @@ function SidebarV2() {
                                     <li className="item px-[43px] py-[11px]">
                                         <a
                                             href="#"
-                                            // className={`${
-                                            //   location.includes("settings") ? "nav-active" : ""
-                                            // }`}
-                                            // className="nav-active"
                                         >
                                             <span className="item-ico">
                                                 <svg
@@ -557,11 +508,6 @@ function SidebarV2() {
                                     <li className="item px-[43px] py-[11px]">
                                         <a
                                             href="#"
-                                            // className={`${
-                                            //     location === "/signin"
-                                            //         ? "nav-active"
-                                            //         : ""
-                                            // }`}
                                         >
                                             <span className="item-ico">
                                                 <svg
@@ -593,11 +539,7 @@ function SidebarV2() {
                                     <li className="item px-[43px] py-[11px]">
                                         <a
                                             href="#"
-                                            // className={`${
-                                            //     location === "/signup"
-                                            //         ? "nav-active"
-                                            //         : ""
-                                            // }`}
+                                          
                                         >
                                             <span className="item-ico">
                                                 <svg

@@ -1,4 +1,4 @@
-// import ProtoTypes from "prop-types";
+
 function ToggleBtn({ clickHandler, name, icon, active, children }) {
   return (
     <div
@@ -24,13 +24,5 @@ function ToggleBtn({ clickHandler, name, icon, active, children }) {
     </div>
   );
 }
-
-// ToggleBtn.propTypes = {
-//   clickHandler: ProtoTypes.func,
-//   name: ProtoTypes.string,
-//   icon: ProtoTypes.node,
-//   active: ProtoTypes.bool,
-//   children: ProtoTypes.node,
-// };
 
 export default ToggleBtn;
