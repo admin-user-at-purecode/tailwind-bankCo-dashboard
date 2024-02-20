@@ -1,5 +1,3 @@
-// import ProtoTypes from "prop-types";
-// import { Link } from "react-router-dom";
 function ProfilePopup({ active }) {
   return (
     <div className="profile-wrapper text-left">
@@ -137,10 +135,5 @@ function ProfilePopup({ active }) {
     </div>
   );
 }
-
-// ProfilePopup.propTypes = {
-//   active: ProtoTypes.bool,
-//   handlePopup: ProtoTypes.func,
-// };
 
 export default ProfilePopup;

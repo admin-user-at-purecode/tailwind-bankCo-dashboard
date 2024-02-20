@@ -1,4 +1,3 @@
-// import ProtoTypes from "prop-types";
 import member from "../../../assets/images/avatar/members.png";
 
 function StorePopUp({ active }) {
@@ -79,10 +78,5 @@ function StorePopUp({ active }) {
         </div>
     );
 }
-
-// StorePopUp.propTypes = {
-//   active: ProtoTypes.bool,
-//   handlePopup: ProtoTypes.func,
-// };
 
 export default StorePopUp;
