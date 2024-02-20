@@ -1,12 +1,21 @@
 import Sidebar from "./sidebar/index";
 import SidebarV2 from "./sidebar/SidebarV2";
-import Overlay from "./overlay";
 import HeaderOne from "./header/HeaderOne";
 import HeaderTwo from "./header/HeaderTwo";
 import { useState } from "react";
 import { createContext } from "react";
+import HomeTwo from "../../pages/homeTwo";
 
 export const ThemeContext = createContext(null);
+
+function Overlay() {
+    return (
+        <div
+            style={{ zIndex: "25" }}
+            className="aside-overlay fixed left-0 top-0 block h-full w-full bg-black bg-opacity-30 sm:hidden"
+        ></div>
+    );
+}
 
 function Layout({ bg, overlay }) {
     const [sidebar, setSidebar] = useState(true);
@@ -37,6 +46,7 @@ function Layout({ bg, overlay }) {
                     >
                         <HeaderOne handleSidebar={() => setSidebar(!sidebar)} />
                         <HeaderTwo handleSidebar={() => setSidebar(!sidebar)} />
+                        <HomeTwo />
                     </div>
                 </div>
             </div>

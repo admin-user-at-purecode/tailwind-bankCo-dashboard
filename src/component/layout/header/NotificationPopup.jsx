@@ -1,5 +1,3 @@
-// import ProtoTypes from "prop-types";
-// import { Link } from "react-router-dom";
 function NotificationPopup({ active }) {
   return (
     <div className="notification-popup-wrapper text-left overflow-y-hidden">
@@ -177,9 +175,5 @@ function NotificationPopup({ active }) {
     </div>
   );
 }
-// NotificationPopup.propTypes = {
-//   active: ProtoTypes.bool,
-//   handlePopup: ProtoTypes.func,
-// };
 
 export default NotificationPopup;
