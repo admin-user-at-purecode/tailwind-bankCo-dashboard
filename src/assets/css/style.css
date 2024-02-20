@@ -541,11 +541,11 @@ button.fc-button.fc-button-primary.fc-prev-button {
 :is(.sidebar-wrapper, .sidebar-wrapper-collapse)
   .sidebar-body
   .item-wrapper
-  /* ul
+  ul
   li.item:hover {
   fill: #22c55e;
   color: #22c55e;
-} */
+}
 :is(.sidebar-wrapper, .sidebar-wrapper-collapse)
   .sidebar-body
   .item-wrapper
