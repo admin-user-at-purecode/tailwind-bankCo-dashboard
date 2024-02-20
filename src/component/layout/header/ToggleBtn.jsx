@@ -1,4 +1,3 @@
-
 function ToggleBtn({ clickHandler, name, icon, active, children }) {
   return (
     <div
