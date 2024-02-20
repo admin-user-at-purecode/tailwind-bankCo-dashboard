@@ -6,7 +6,7 @@ import { useState } from "react";
 import { createContext } from "react";
 import HomeTwo from "../../pages/homeTwo";
 
-export const ThemeContext = createContext(null);
+export const ThemeContext = createContext("");
 
 function Overlay() {
     return (
