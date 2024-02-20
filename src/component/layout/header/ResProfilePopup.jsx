@@ -1,5 +1,3 @@
-// import ProtoTypes from "prop-types";
-// import { Link } from "react-router-dom";
 
 function ResProfilePopup({ isActive }) {
   return (
@@ -136,9 +134,5 @@ function ResProfilePopup({ isActive }) {
     </div>
   );
 }
-
-// ResProfilePopup.propTypes = {
-//   isActive: ProtoTypes.bool,
-// };
 
 export default ResProfilePopup;

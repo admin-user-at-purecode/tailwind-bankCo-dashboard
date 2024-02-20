@@ -994,8 +994,4 @@ function Sidebar({ handleActive }) {
     );
 }
 
-// Sidebar.propTypes = {
-//     handleActive: ProtoTypes.func,
-// };
-
 export default Sidebar;
