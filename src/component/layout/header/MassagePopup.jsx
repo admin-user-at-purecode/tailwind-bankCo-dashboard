@@ -1,4 +1,3 @@
-// import ProtoTypes from "prop-types";
 import inbox1 from "../../../assets/images/avatar/inbox-1.png";
 import inbox2 from "../../../assets/images/avatar/inbox-2.png";
 import inbox3 from "../../../assets/images/avatar/inbox-3.png";
@@ -277,10 +276,5 @@ function MassagePopup({ active }) {
         </div>
     );
 }
-
-// MassagePopup.propTypes = {
-//   handlePopup: ProtoTypes.func,
-//   active: ProtoTypes.bool,
-// };
 
 export default MassagePopup;
