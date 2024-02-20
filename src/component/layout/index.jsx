@@ -7,7 +7,7 @@ import { useState } from "react";
 import { createContext } from "react";
 import Analytics from "../../pages/analytics/index";
 
-export const ThemeContext = createContext(null);
+export const ThemeContext = createContext("");
 
 function Layout({ bg, overlay }) {
     const [sidebar, setSidebar] = useState(true);
