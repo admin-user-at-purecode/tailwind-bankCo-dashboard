@@ -1,4 +1,3 @@
-// import ProtoTypes from "prop-types";
 import PieChart from "../chart/PieChart";
 import MonthFilter from "../forms/MonthFilter";
 
@@ -129,10 +128,5 @@ function Efficiency({ width, height }) {
     </div>
   );
 }
-
-// Efficiency.propTypes = {
-//   width: ProtoTypes.string,
-//   height: ProtoTypes.string,
-// };
 
 export default Efficiency;

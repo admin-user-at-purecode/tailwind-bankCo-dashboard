@@ -11,7 +11,6 @@ import {
   Tooltip,
   Legend,
 } from "chart.js";
-import ProtoTypes from "prop-types";
 
 function LineChart({ option, dataSet, plugins, refer }) {
   ChartJS.register(
@@ -88,12 +87,5 @@ function LineChart({ option, dataSet, plugins, refer }) {
   };
   return <Line options={options} data={data} plugins={plugins} ref={refer} />;
 }
-
-LineChart.propTypes = {
-  option: ProtoTypes.object,
-  dataSet: ProtoTypes.object,
-  plugins: ProtoTypes.array,
-  refer: ProtoTypes.object,
-};
 
 export default LineChart;

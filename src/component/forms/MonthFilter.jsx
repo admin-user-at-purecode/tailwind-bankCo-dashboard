@@ -1,4 +1,3 @@
-// import ProtoTypes from "prop-types";
 import { useState } from "react";
 
 function MonthFilter({ options }) {
@@ -62,9 +61,5 @@ function MonthFilter({ options }) {
     </div>
   );
 }
-
-// MonthFilter.propTypes = {
-//   options: ProtoTypes.array,
-// };
 
 export default MonthFilter;
