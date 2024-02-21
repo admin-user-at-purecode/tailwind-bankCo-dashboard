@@ -1,11 +1,10 @@
-import Layout from "./component/layout";
-
+import SignUp from "./pages/signup";
 function App() {
-    return (
-        <>
-            <Layout />
-        </>
-    );
+  return (
+    <>
+      <SignUp />
+    </>
+  );
 }
 
 export default App;
