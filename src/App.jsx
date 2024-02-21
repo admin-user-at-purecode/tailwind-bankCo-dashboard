@@ -1,11 +1,11 @@
-import Layout from "./component/layout";
+import ComingSoon from "./pages/commingSoon";
 
 function App() {
-    return (
-        <>
-            <Layout />
-        </>
-    );
+  return (
+    <>
+      <ComingSoon />
+    </>
+  );
 }
 
 export default App;
