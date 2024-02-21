@@ -1,5 +1,3 @@
-import ProtoTypes from "prop-types";
-
 function HistoryContent({ history }) {
   const { img, name, date, amount, payment, status } = history;
   return (
@@ -92,9 +90,5 @@ function HistoryContent({ history }) {
     </tr>
   );
 }
-
-HistoryContent.propTypes = {
-  history: ProtoTypes.object,
-};
 
 export default HistoryContent;

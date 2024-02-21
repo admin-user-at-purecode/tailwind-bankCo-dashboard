@@ -1,5 +1,4 @@
 import { useState } from "react";
-import ProtoTypes from "prop-types";
 function Filter({ options }) {
   const [active, setActive] = useState(false);
   return (
@@ -75,9 +74,5 @@ function Filter({ options }) {
     </div>
   );
 }
-
-Filter.propTypes = {
-  options: ProtoTypes.array,
-};
 
 export default Filter;

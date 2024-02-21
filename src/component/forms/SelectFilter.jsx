@@ -1,5 +1,4 @@
 import { useState } from "react";
-import ProtoTypes from "prop-types";
 
 function SelectFilter({ title, placeHolder, options, icon }) {
   const [active, setActive] = useState(false);
@@ -59,12 +58,5 @@ function SelectFilter({ title, placeHolder, options, icon }) {
     </div>
   );
 }
-
-SelectFilter.propTypes = {
-  title: ProtoTypes.string,
-  placeHolder: ProtoTypes.string,
-  options: ProtoTypes.array,
-  icon: ProtoTypes.object,
-};
 
 export default SelectFilter;

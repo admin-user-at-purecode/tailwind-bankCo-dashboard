@@ -1,4 +1,3 @@
-import ProtoTypes from "prop-types";
 import Sidebar from "./sidebar/index";
 import SidebarV2 from "./sidebar/SidebarV2";
 import Overlay from "../overlay";
@@ -46,10 +45,4 @@ function Layout({ bg, overlay }) {
     </ThemeContext.Provider>
   );
 }
-Layout.propTypes = {
-  bg: ProtoTypes.string,
-  overlay: ProtoTypes.node,
-  children: ProtoTypes.node,
-};
-
 export default Layout;

@@ -1,4 +1,3 @@
-import ProtoTypes from "prop-types";
 function GreenBtn({ text, action, className }) {
   return (
     <button
@@ -12,11 +11,5 @@ function GreenBtn({ text, action, className }) {
     </button>
   );
 }
-
-GreenBtn.propTypes = {
-  text: ProtoTypes.string,
-  className: ProtoTypes.string,
-  action: ProtoTypes.func,
-};
 
 export default GreenBtn;

@@ -1,4 +1,3 @@
-import ProtoTypes from "prop-types";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";
 
@@ -11,9 +10,5 @@ function Slider({ children, ...props }) {
     </Swiper>
   );
 }
-
-Slider.propTypes = {
-  children: ProtoTypes.node,
-};
 
 export default Slider;

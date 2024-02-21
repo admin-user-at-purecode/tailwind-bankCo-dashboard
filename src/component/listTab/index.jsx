@@ -1,4 +1,3 @@
-import ProtoTypes from "prop-types";
 import Pagination from "../Pagination";
 import Filter from "../forms/Filter";
 import FilterFull from "../forms/FilterFull";
@@ -19,9 +18,5 @@ function ListTab({ pageSize }) {
     </div>
   );
 }
-
-ListTab.propTypes = {
-  pageSize: ProtoTypes.number,
-};
 
 export default ListTab;
