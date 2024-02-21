@@ -1,10 +1,10 @@
-import Layout from "./component/layout";
+import SignIn from "./pages/signin";
 
 function App() {
     return (
         <>
-            <Layout />
-        </>
+       <SignIn/>
+       </>
     );
 }
 
