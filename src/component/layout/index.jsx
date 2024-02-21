@@ -5,6 +5,8 @@ import HeaderOne from "./header/HeaderOne";
 import HeaderTwo from "./header/HeaderTwo";
 import { useState } from "react";
 import { createContext } from "react";
+import Transaction from "../../pages/transaction";
+
 
 export const ThemeContext = createContext("");
 
@@ -37,6 +39,7 @@ function Layout({ bg, overlay }) {
                     >
                         <HeaderOne handleSidebar={() => setSidebar(!sidebar)} />
                         <HeaderTwo handleSidebar={() => setSidebar(!sidebar)} />
+                        <Transaction />
                     </div>
                 </div>
             </div>
