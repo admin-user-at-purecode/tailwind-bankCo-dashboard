@@ -1,9 +1,9 @@
-import Layout from "./component/layout";
+import HomeFive from "./pages/homeFive";
 
 function App() {
     return (
         <>
-            <Layout />
+            <HomeFive />
         </>
     );
 }
