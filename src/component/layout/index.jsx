@@ -4,6 +4,7 @@ import Overlay from "./overlay";
 import HeaderOne from "./header/HeaderOne";
 import HeaderTwo from "./header/HeaderTwo";
 import { useState } from "react";
+import Settings from "../../pages/settings";
 import { createContext } from "react";
 
 export const ThemeContext = createContext("");
@@ -37,6 +38,7 @@ function Layout({ bg, overlay }) {
                     >
                         <HeaderOne handleSidebar={() => setSidebar(!sidebar)} />
                         <HeaderTwo handleSidebar={() => setSidebar(!sidebar)} />
+                        <Settings/>
                     </div>
                 </div>
             </div>
