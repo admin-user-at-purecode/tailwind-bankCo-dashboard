@@ -17,7 +17,7 @@ function MassagePopup({ active }) {
             >
                 <div className="relative w-full pb-[75px] pt-[66px]">
                     <div className="absolute left-0 top-0 flex h-[66px] w-full items-center justify-between px-8">
-                        <h3 className="text-xl font-bold text-bgray-900 dark:text-white">
+                        <h3 className="text-xl font-bold text-b-900 dark:text-white">
                             Message
                         </h3>
                         <span>
