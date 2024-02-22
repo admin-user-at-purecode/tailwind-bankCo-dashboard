@@ -1,11 +1,11 @@
 import Layout from "./component/layout";
 
 function App() {
-    return (
-        <>
-            <Layout />
-        </>
-    );
+  return (
+    <>
+      <Layout />
+    </>
+  );
 }
 
 export default App;
